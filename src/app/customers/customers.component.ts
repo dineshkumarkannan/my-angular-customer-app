@@ -18,7 +18,10 @@ export class CustomersComponent implements OnInit {
     "phone": "",
     "email": "",
     "website" : "",
-    "address": {},
+      "address": {
+      "street":"",
+      "city":""
+    },
     "company": {}
 };
   constructor(private customerService : CustomerService) { }
@@ -46,7 +49,10 @@ public selected : number;
     "phone": "",
     "email": "",
     "website" : "",
-    "address": {},
+    "address": {
+      "street":"",
+      "city":""
+    },
     "company": {}
 };
       }
