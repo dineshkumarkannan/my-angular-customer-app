@@ -37,7 +37,7 @@ public selected : number;
 
   save(newCustomers : Customer): void {
     let id = this.customer.length + 1 ;
-     newCustomers.id = Number(id);
+     newCustomers.id = id;
     this.customerService.addCustomer( newCustomers )
     .subscribe(
       customer =>{
