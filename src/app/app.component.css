@@ -1,0 +1,40 @@
+.app-title{
+    color: darkslategray;
+    margin: 12px;
+}
+
+
+
+.top-menu{
+    margin: 2px;
+}
+
+.top-menu a{ 
+    color: gray;
+    text-transform: uppercase;
+}
+
+.about-me{
+    float : right;
+    color: white !important;
+}
+
+.about-me a{ 
+     color: white !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .app-title{
+        text-align: center;
+    }
+    .about-me{
+        float : inherit;
+    }
+}
+
+
+.shadow {
+  -webkit-box-shadow: 0 6px 4px -4px black;
+  -moz-box-shadow: 0 6px 4px -4px black;
+  box-shadow: 0 4px 6px -4px gray;
+}
