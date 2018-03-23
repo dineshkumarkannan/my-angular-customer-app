@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href https://dineshkumarkannan.github.io/my-angular-todo/ && angular-cli-ghpages --branch gh-pages"
+    "deploy": "ng build --prod --base-href https://dineshkumarkannan.github.io/my-angular-customer-app/ && angular-cli-ghpages --branch gh-pages"
   },
   "private": true,
   "dependencies": {
