@@ -1,15 +1,20 @@
 <div class="shadow">
-  <h3 class="app-title">{{ title }}</h3>
-  <div>
-    <button mat-button class="top-menu">
-  <a routerLink="/dashboard">Dashboard</a>
-  </button>
-    <button mat-button class="top-menu">
-  <a routerLink="/customers">Customers</a>
-  </button>
-     <button mat-raised-button  class="top-menu about-me" color="primary">
-  <a routerLink="/about-me">About me</a>
-  </button>
+  <div class="app-title">{{ title }}</div>
+   <div class="header">
+    <ul>
+      <li class="menu">
+       <a routerLink="/dashboard"> D
+        <div class="tooltiptext"> Dashboard </div></a>
+      </li> 
+      <li class="menu">
+       <a routerLink="/customers"> C
+        <div class="tooltiptext"> Customer </div></a>
+      </li>
+      <li class="menu">
+       <a routerLink="/about-me"> A
+        <div class="tooltiptext"> About Me </div> </a>
+      </li>
+    </ul>
   </div>
 </div>
 <!--<app-customers></app-customers>-->
